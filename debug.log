@@ -43,3 +43,15 @@
 [1105/112647.130:ERROR:file_io_win.cc(162)] CreateFile C:\Users\samsu\AppData\Local\Temp\puppeteer_dev_chrome_profile-W5ylhH\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
 [1105/112647.132:ERROR:file_io_win.cc(171)] CreateFile C:\Users\samsu\AppData\Local\Temp\puppeteer_dev_chrome_profile-W5ylhH\Crashpad\reports\f39a3862-4d0d-42c7-b368-a13dc5a05924.dmp: The system cannot find the path specified. (0x3)
 [1105/112647.132:ERROR:crash_report_exception_handler.cc(99)] PrepareNewCrashReport failed
+[1105/113755.858:ERROR:file_io_win.cc(162)] CreateFile C:\Users\samsu\AppData\Local\Temp\puppeteer_dev_chrome_profile-1RyLBW\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[1105/113755.861:ERROR:file_io_win.cc(171)] CreateFile C:\Users\samsu\AppData\Local\Temp\puppeteer_dev_chrome_profile-1RyLBW\Crashpad\reports\b28dc3da-0ade-43e2-9b2c-8df935f05ef4.dmp: The system cannot find the path specified. (0x3)
+[1105/113755.861:ERROR:crash_report_exception_handler.cc(99)] PrepareNewCrashReport failed
+[1105/113833.097:ERROR:file_io_win.cc(162)] CreateFile C:\Users\samsu\AppData\Local\Temp\puppeteer_dev_chrome_profile-YdflqC\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[1105/113833.100:ERROR:file_io_win.cc(171)] CreateFile C:\Users\samsu\AppData\Local\Temp\puppeteer_dev_chrome_profile-YdflqC\Crashpad\reports\eaa36934-07c4-4c0c-8974-ebe9ccfefdbc.dmp: The system cannot find the path specified. (0x3)
+[1105/113833.100:ERROR:crash_report_exception_handler.cc(99)] PrepareNewCrashReport failed
+[1105/113918.097:ERROR:file_io_win.cc(162)] CreateFile C:\Users\samsu\AppData\Local\Temp\puppeteer_dev_chrome_profile-JNcWJZ\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[1105/113918.125:ERROR:file_io_win.cc(171)] CreateFile C:\Users\samsu\AppData\Local\Temp\puppeteer_dev_chrome_profile-JNcWJZ\Crashpad\reports\e9a5d8c4-e9b8-4b1a-b86c-9cbcb5f055c0.dmp: The system cannot find the path specified. (0x3)
+[1105/113918.125:ERROR:crash_report_exception_handler.cc(99)] PrepareNewCrashReport failed
+[1105/114149.223:ERROR:file_io_win.cc(162)] CreateFile C:\Users\samsu\AppData\Local\Temp\puppeteer_dev_chrome_profile-Z3EviQ\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[1105/114149.226:ERROR:file_io_win.cc(171)] CreateFile C:\Users\samsu\AppData\Local\Temp\puppeteer_dev_chrome_profile-Z3EviQ\Crashpad\reports\11eb0ef8-dd9c-4e77-be41-28a0ddfca93d.dmp: The system cannot find the path specified. (0x3)
+[1105/114149.226:ERROR:crash_report_exception_handler.cc(99)] PrepareNewCrashReport failed

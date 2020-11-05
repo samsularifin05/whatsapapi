@@ -40,12 +40,20 @@ const start = async (client) => {
 	app.use(bodyParser.raw());
 	app.get('/', (req, res) => res.send('Hello'));
 		app.post('/kirim-pesan', (req, res) => {
-			// client.sendImage(req.body.no_hp + '@c.us', req.body.gambar);
-			// client.sendText(req.body.no_hp + '@c.us', req.body.pesan);
-			// client.sendFileFromUrl(req.body.no_hp + '@c.us','https://i.giphy.com/media/oYtVHSxngR3lC/200w.mp4','nama_file');
-			client.sendYoutubeLink(req.body.no_hp + '@c.us','https://www.youtube.com/watch?v=_bSB6Ed2Fnk','Ytube');
-			res.send(['berhasil']);
-	});
+	client.sendText(req.body.no_hp + '@c.us', req.body.pesan);
+	//send images
+	// client.sendImage(req.body.no_hp + '@c.us', req.body.gambar);
+	//send video / foto
+	// client.sendFileFromUrl(req.body.no_hp + '@c.us','https://i.giphy.com/media/oYtVHSxngR3lC/200w.mp4','nama_file');
+	// send file pdf /doc
+	// client.sendFile(
+    //     req.body.no_hp + "@c.us",
+    //     "https://www.lyfemarketing.com/blog/wp-content/uploads/2017/12/Digital-Marketing-Strategy-eBook.pdf",
+    //     "nama_file"
+    //   );
+      // client.sendYoutubeLink(req.body.no_hp + '@c.us','https://www.youtube.com/watch?v=_bSB6Ed2Fnk','Ytube');
+      res.send(["berhasil"]);
+    });
 	  
 	app.listen(4000, () => console.log('listenig on localhost:4000'));
   	client.onMessage((message) => {
