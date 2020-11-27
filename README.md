@@ -15,6 +15,6 @@ kirim nya di raw typenya json
 masukan json berikut :
 
 `{
-    "no_hp" : "6281395147724",
+    "no_hp" : "6281xxxxxxxx",
     "pesan" : "TEST WA"
 }`
