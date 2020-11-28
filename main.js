@@ -40,8 +40,8 @@ const start = async (client) => {
   app.use(bodyParser.json());
   app.use(bodyParser.raw());
   app.get("/", (req, res) => res.send("Hello"));
-  app.post("/kirim-pesan", (req, res) => {
-    client.sendText(req.body.no_hp + "@c.us", req.body.pesan);
+   app.post("/kirim-pesan", async (req, res) => {
+    const  pesan = await client.sendText(req.body.no_hp + "@c.us", req.body.pesan);
     //send images
     // client.sendImage(req.body.no_hp + '@c.us', req.body.gambar);
     //send video / foto
@@ -53,7 +53,13 @@ const start = async (client) => {
     //     "nama_file"
     //   );
     // client.sendYoutubeLink(req.body.no_hp + '@c.us','https://www.youtube.com/watch?v=_bSB6Ed2Fnk','Ytube');
-    res.send(["berhasil"]);
+	var status='' ;
+	if(pesan == false){
+		status = "Pesan Gagal DIkirim";
+	}else{
+		status = "Pesan Berhasil Dikirim";		
+	}
+    res.send([{'pesan': status}]);
   });
 
   // app.listen(4000, () => console.log('listenig on localhost:4000'));
