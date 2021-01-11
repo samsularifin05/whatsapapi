@@ -1,19 +1,13 @@
 # whatsapapi
-# npm install
-# node main.js
 
-lalu scan qr code yang ada di terminal
-ketika udah di scan
-buka postman
-
-lalu cara tesnya 
-
-type request post : http://localhost:4000/kirim-pesan
-
-kirim nya di raw typenya json
-
+Cara Install
+1. klik kanan folder `whatsapapi` lalu ketik `npm install`
+2. jalankan `node main.js`
+3. scan qr code whatsap yang ada di terminal
+4. Buka POSMANT
+5. type request post : http://localhost:4000/kirim-pesan
+6. kirim datanya nya di raw typenya json
 masukan json berikut :
-
 `{
     "no_hp" : "6281xxxxxxxx",
     "pesan" : "TEST WA"
