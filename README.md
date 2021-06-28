@@ -2,7 +2,7 @@
 
 Cara Install
 1. klik kanan folder `whatsapapi` lalu ketik `npm install`
-2. Ketik di terminal `npm run star`
+2. Ketik di terminal `npm run start`
 3. scan qr code whatsap yang ada di terminal
 4. Buka POSMANT
 5. type request post : http://localhost:4000/kirim-pesan
