@@ -1,3 +1,8 @@
 node_modules
 session.data.json
 debug.log
+
+# managed
+**.data.json
+**.node-persist**
+# end managed
